@@ -1,39 +1,11 @@
 #include<bits/stdc++.h>
-using namespace std;
-
-class Entity {
-private:
-    int e_id;
-    string e_name;
-
-public:
-    explicit Entity(int id, string name) {
-        e_id = id;
-        e_name = name;
-    }
-
-    Entity() = delete;
-    Entity(int id) = delete;
-    Entity(string name) = delete;
-
-    int getID() {
-        return e_id;
-    }
-    string getName() {
-        return e_name;
-    }
-};
-
-void print(Entity e) {
-    cout<<e.getID()<<" "<<e.getName()<<endl;
-}
+#include "Calculator.h"
 
 int main() {
     // solution
-    Entity a(1, "Drake");
-    Entity b(2, "Snoop Dogg");
+    calc::Calculator c;
 
-    print(a);
-    print(b);
+    std::cout << c.add(34, 67);
+    std::cout << c.subtract(34, 78);
     return 0;
 }
