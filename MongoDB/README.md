@@ -9,7 +9,7 @@ MongoDB is a document database designed for ease of development and scaling.
 - It is similar to JSON.
 - Example
 
-```json
+```js
 {
     name: "Cypher",
     age: "29",
