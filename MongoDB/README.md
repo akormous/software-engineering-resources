@@ -12,7 +12,7 @@ MongoDB is a document database designed for ease of development and scaling.
 ```js
 {
     name: "Cypher",
-    age: "29",
+    rank: "Radiant",
     location: "Morocco",
     type: "Sentinel"
 }
