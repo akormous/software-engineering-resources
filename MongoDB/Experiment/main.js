@@ -2,6 +2,8 @@
 const {MongoClient} = require('mongodb');
 const utility = require('./utility.js');
 
+const agents_data = require('./sample_data.json');
+
 const utils = new utility();
 
 async function main() {
@@ -21,7 +23,7 @@ async function main() {
         console.log(await utils.listDatabases(client));
         
         
-        
+        console.log(agents_data);        
         await client.close();
         console.log("\nDISCONNECTED from Local MongoDB\n");
     } catch(e) {

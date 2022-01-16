@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Cypher",
+        "rank": "Radiant",
+        "location": "Morocco",
+        "type": "Sentinel"
+    },
+    {
+        "name": "Jett",
+        "rank": "Radiant",
+        "location": "South Korea",
+        "type": "Duelist"
+    },
+    {
+        "name": "Reyna",
+        "rank": "Radiant",
+        "location": "Mexico",
+        "type": "Duelist"
+    },
+    {
+        "name": "Phoenix",
+        "rank": "Radiant",
+        "location": "United Kingdom",
+        "type": "Duelist"
+    },
+    {
+        "name": "Brimstone",
+        "rank": "Radiant",
+        "location": "United States",
+        "type": "Controller"
+    },
+    {
+        "name": "Viper",
+        "rank": "Radiant",
+        "location": "United States",
+        "type": "Controller"
+    },
+    {
+        "name": "Sova",
+        "rank": "Radiant",
+        "location": "Russia",
+        "type": "Initiator"
+    },
+    {
+        "name": "Raze",
+        "rank": "Radiant",
+        "location": "Brazil",
+        "type": "Duelist"
+    },
+    {
+        "name": "Breach",
+        "rank": "Radiant",
+        "location": "Sweden",
+        "type": "Initiator"
+    },
+    {
+        "name": "Skye",
+        "rank": "Radiant",
+        "location": "Australia",
+        "type": "Initiator"
+    }
+]
