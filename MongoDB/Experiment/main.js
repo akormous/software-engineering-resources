@@ -22,8 +22,20 @@ async function main() {
 
         console.log(await utils.listDatabases(client));
         
-        
-        console.log(agents_data);        
+        // create DB instance
+        const myDB = client.db('test');
+
+        // get the agents collection from the db
+        const agents = myDB.collection('agents');
+
+        // get a cursor to the data
+        const myCursor = await agents.find({
+            type: "Initiator"
+        });
+
+        // show all the data in agents collection
+        await myCursor.forEach(doc => console.log(doc.name));
+              
         await client.close();
         console.log("\nDISCONNECTED from Local MongoDB\n");
     } catch(e) {
