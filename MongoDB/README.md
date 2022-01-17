@@ -33,3 +33,10 @@ npm install mongodb
 ```
 - Check out this documentation - [MongoDB Node Driver](https://docs.mongodb.com/drivers/node/current/)
 </details>
+
+<details>
+    <summary>Basics</summary>
+
+- MongoDB stores data records as **BSON documents** which are gathered together in **collections**.
+- A database stores one or more collections
+</details>
