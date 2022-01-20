@@ -1,9 +1,12 @@
 package main
 
-import "fmt"
+import "net/http"
+import "log"
 
 func main() {
-	var num int
-	num = 23
-	fmt.Println("My fav number is",num)
+	http.HandleFunc("/", func(http.ResponseWriter, *http.Request) {
+		log.Println("This is my web server")
+	})
+	
+	http.ListenAndServe("127.0.0.1:8080", nil)
 }
