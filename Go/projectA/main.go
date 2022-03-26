@@ -1,12 +1,26 @@
 package main
 
-import "net/http"
-import "log"
+import "fmt"
+
+// Check if a given positive number is prime
+func isPrime(num int) bool {
+	if num <= 1 {
+		return false
+	}
+	if num == 2 {
+		return true
+	}
+	for i := 2; i < num/2; i++ {
+		if num%i == 0 {
+			return false
+		}
+	}
+	return true
+}
 
 func main() {
-	http.HandleFunc("/", func(http.ResponseWriter, *http.Request) {
-		log.Println("This is my web server")
-	})
-	
-	http.ListenAndServe("127.0.0.1:8080", nil)
+	for i := 0; i < 1000; i++ {
+		fmt.Println(i, " - ", isPrime(i))
+	}
+
 }
