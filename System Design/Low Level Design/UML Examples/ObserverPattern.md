@@ -1,5 +1,9 @@
 # The Observer Pattern
 
+## C++ Project Example
+Link: [The Weather Station](../Code/ObserverPattern/)
+
+## Theory
 It defines a one-to-many dependency between objects so that when one object changes state, all of its dependents are notified and updated automatically.
 
 The relationship between subject and observers is one-to-many. Whenever the state of the subject changes, all the observers are notified.
@@ -54,46 +58,3 @@ ConcreteObserver "subscribe" --|> ConcreteSubject
 - Strive for loosely coupled designs between objects that interact
 - Loosely coupled designs allow us to build flexible OO systems that can handle change because they minimize the interdependency between objects
 - **Publishers + Subscribers = Observer Pattern**
-
-
-## Example - The Weather Station
-
-```mermaid
-classDiagram
-
-class Subject {
-    <<interface>>
-    +registerObserver()
-    +removeObserver()
-    +notifyObserver()
-}
-
-class Observer {
-    <<interface>>
-    +update()
-}
-
-class Display {
-    <<interface>>
-    +display()
-}
-
-class WeatherObject {
-    +registerObserver()
-    +removeObserver()
-    +notifyObserver()
-}
-
-Subject "1" --> "many" Observer
-Subject <|.. "implements" WeatherObject
-
-
-class MyCustomDisplayApp {
-    +update()
-    +display()
-}
-Observer <|.. "implements" MyCustomDisplayApp
-Display <|.. "implements" MyCustomDisplayApp
-WeatherObject <|-- "subscribe" MyCustomDisplayApp
-
-```
