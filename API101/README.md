@@ -1,7 +1,7 @@
 # API
 This document describes some of the best practices to use when designing an API.
 
-For a quick introduction, read this PDF: [API_Design_101.pdf](https://github.com/akormous/software-engineering-resources/API101/API_Design_101.pdf)
+For a quick introduction to REST design, read this PDF: [REST_Design_101.pdf](https://github.com/akormous/software-engineering-resources/API101/REST_Design_101.pdf)
 
 ## Basic stuff, good to know
 <details>
