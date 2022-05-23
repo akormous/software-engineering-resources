@@ -1,13 +1,13 @@
 # System Design
-This directory contains notes on low-level, object-oriented design and high-level design.
+This directory contains notes and projects on low-level, object-oriented design and high-level design.
 
 # LLD
 ## SOLID Principles
-Read [this pdf](./LLD/SOLID_Principles.pdf).
+- [SOLID Principles in plain english](https://www.freecodecamp.org/news/solid-principles-explained-in-plain-english/)
 ## Design Patterns
 A dedicated repository with theory and code is available here:
-[akormous/design-patterns](https://github.com/akormous/design-patterns)
+- [akormous/design-patterns](https://github.com/akormous/design-patterns)
 
 
 # HLD
-For absolute noobs, I recommend reading [this pdf](./HLD/System_Design_Fundamentals.pdf).
+- [System Design Basics](./HLD/System_Design_Basics.pdf)
