@@ -13,7 +13,7 @@ This is the most common scenario, once the user is logged in, each subsequent re
 Ex. Single-sign on
 
 ### Information Exchange
-Securely transmitting informatino between parties, because JWTs can be signed using public/private key pairs - you can be sure the senders are who they say they are. Additionally, as the signature is calculated using the header and the payload, you can also verify that the content hasn't neem tampered with.
+Securely transmitting information between parties, because JWTs can be signed using public/private key pairs - you can be sure the senders are who they say they are. Additionally, as the signature is calculated using the header and the payload, you can also verify that the content hasn't been tampered with.
 
 ## JWT Structure
 It consists of 3 parts separated by dots (`.`):
