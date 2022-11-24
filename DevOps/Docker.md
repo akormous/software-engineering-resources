@@ -50,3 +50,9 @@ There are some orchestrator as a service, like, Azure Kubernetes Service, Servic
 - Runs on Mac, Windows and Linux
 - Command line tool to create containers
 - "Dockerfile" format for building container images
+
+## Docker compose?
+- Define and run multi-containers applications
+- Define using YAML file
+- Run using the docker CLI with the compose plugin (docker compose)
+- https://docs.docker.com/compose/
