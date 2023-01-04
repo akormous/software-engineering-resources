@@ -63,6 +63,6 @@ function App() {
 
 export default App
 
-
-
 ```
+
+[Explanation for beginners](https://www.freecodecamp.org/news/react-useeffect-absolute-beginners/)
