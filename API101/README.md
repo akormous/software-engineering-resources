@@ -25,3 +25,20 @@ Whenever a breaking change is made. Some of the scenarios of breaking change:
 - Renaming fields or resources paths
 - Changing payload structure to incorporate maybe a different data type or something
 - Removing parts of the API endpoints either to improve design or fix poor choices of HTTP verbs
+
+# OpenAPI Specification
+
+The OpenAPI Specification (OAS) defines a standard, language-agnostic interface to HTTP APIs which allows both humans and computers to discover and understand the capabilities of the service without access to source code, documentation, or through network traffic inspection.
+
+An OpenAPI defintion can then be used by documentation generation tools to display the API, code generation tools to generate servers and clients in various programming languages, testing tools, and many other use cases.
+
+## OpenAPI Document
+
+A self-contained or composite resource which defines or describes an API or elements of an API.
+
+**Design your API first instead of code first. Because it sucks when you have to change your API after you complete coding.**
+
+## Editors
+
+- https://stoplight.io/welcome (for zoomers)
+- https://editor.swagger.io/ (for boomers)
