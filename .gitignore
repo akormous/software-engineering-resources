@@ -5,3 +5,4 @@ CMakeCache.txt
 build/
 
 .vscode
+__pycache__
