@@ -1,3 +1,10 @@
+# gRPC
+
+- Google Remote Procedural Call
+- In gRPC, a client application can directly call a method on a server application on a different machine as if it were a local object
+- makes it easier for you to create distributed applications and services
+
+
 # Protocol Buffers
 
 - it is a free and open-source, cross-platform data format
