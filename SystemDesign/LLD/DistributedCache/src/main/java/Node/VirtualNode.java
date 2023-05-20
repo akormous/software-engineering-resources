@@ -12,7 +12,7 @@ public class VirtualNode<T extends Node> implements Node {
     /**
      *
      * @param physicalNode each virtual node has a reference to its physical node
-     * @param replicaIndex
+     * @param replicaIndex label number of the virtual node
      */
     public VirtualNode(T physicalNode, int replicaIndex) {
         this.physicalNode = physicalNode;
